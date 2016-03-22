@@ -6,6 +6,7 @@
     "start": "node server",
     "build": "grunt build",
     "work": "grunt",
+    "postinstall": "grunt build",
     "test": "grunt test",
     "test-headless": "grunt test-headless",
     "local-provision": "sh provision/pre-provision.sh && node provision",
