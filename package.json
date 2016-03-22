@@ -33,8 +33,6 @@
     "clipboard": "^1.5.5",
     "event-emitter": "0.3.3",
     "exports-loader": "^0.6.2",
-    "grunt-eslint": "^17.3.1",
-    "grunt-karma": "^0.12.1",
     "html-loader": "^0.3.0",
     "jquery": "^2.1.4",
     "karma": "^0.13.14",
@@ -50,7 +48,6 @@
     "phantomjs": "^1.9.18",
     "script-loader": "^0.6.1",
     "sinon": "^1.17.2",
-    "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
@@ -67,6 +64,8 @@
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-copy": "^0.8.2",
     "grunt-contrib-watch": "^0.6.1",
+    "grunt-eslint": "^17.3.1",
+    "grunt-karma": "^0.12.1",
     "grunt-postcss": "^0.7.1",
     "grunt-sass": "^1.1.0",
     "grunt-sass-globbing": "^1.4.0",
@@ -79,6 +78,7 @@
     "pg-promise": "^2.3.1",
     "request": "2.65.0",
     "serve-favicon": "^2.3.0",
-    "swagger-client": "<2.1"
+    "swagger-client": "<2.1",
+    "webpack": "^1.12.2"
   }
 }
