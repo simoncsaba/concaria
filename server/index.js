@@ -21,7 +21,7 @@ attemptSalesforce();
 var config = {raw: null, view: null};
 
 var mqttConfig = {
-  host: 'mqtt://' + process.env.XIVELY_BROKER_HOST,
+  host: 'mqtts://' + process.env.XIVELY_BROKER_HOST,
   clientId: process.env.XIVELY_ACCOUNT_BROKER_USER,
   username: process.env.XIVELY_ACCOUNT_BROKER_USER,
   password: process.env.XIVELY_ACCOUNT_BROKER_PASSWORD,
