@@ -14,6 +14,15 @@ module.exports = function(grunt) {
     'postcss',
   ]);
 
+  grunt.registerTask('build-heroku', [
+    'clean',
+    'copy',
+    'webpack:build',
+    'sass_globbing',
+    'sass:build',
+    'postcss',
+  ]);
+
   grunt.registerTask('dev', [
     'test',
     'clean',
