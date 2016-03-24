@@ -92,7 +92,7 @@ var proxy = require('./proxy');
 app.use('/api/proxy', parsers, proxy({
   whitelist: [
     'http://www.airnowapi.org/aq/data',
-    'https://timeseries.xively.com/api/v4/data/xi/blue/v1',
+    'https://' + process.env.XIVELY_TIMESERIES_HOST + '/api/v4/data/xi/blue/v1',
   ],
 }));
 
